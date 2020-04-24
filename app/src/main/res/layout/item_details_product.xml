@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="111dp"
+            android:layout_marginBottom="244dp"
+            android:gravity="center"
+            android:text="Comprar" />
+
+
+        <ImageView
+            android:id="@+id/img_product"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+
+            android:layout_marginTop="94dp"
+            android:scaleType="centerCrop"
+
+            />
+
+        <TextView
+            android:id="@+id/txt_des"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_below="@+id/img_product"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="0dp"
+            android:text="Descrip"
+
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_pre"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_product"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="131dp"
+            android:layout_marginEnd="117dp"
+            android:text="Precio"
+
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txt_des"
+            android:layout_marginBottom="243dp"
+
+            android:text="Product Name"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
